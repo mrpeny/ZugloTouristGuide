@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">Zuglo Tourist Guide</string>
+
+    <!-- Sight texts -->
+    <string name="heroes_square_title">Heroes\' Square</string>
+    <string name="heroes_square_description">Heroes\' Square is one of the major squares
+        in Budapest, Hungary, noted for its iconic statue complex featuring the Seven Chieftains
+        of the Magyars and other important national leaders, as well as the Tomb
+        of the Unknown Soldier.</string>
+
+    <string name="vajdahunyad_castle_title">Vajdahunyad Castle</string>
+    <string name="vajdahunyad_castle_description">Vajdahunyad Castle is a castle in the City Park
+        of Budapest, Hungary. It was built in 1896 as part of the Millennial Exhibition which
+        celebrated the 1,000 years of Hungary since the Hungarian Conquest of the Carpathian Basin
+        in 895.</string>
+
+    <string name="timewheel_title">Timewheel</string>
+    <string name="timewheel_description">The Timewheel is one of the world\'s largest clepsammias,
+        situated in Budapest next to City Park, right of Heroes\' Square and behind the Palace
+        of Art (Műcsarnok), on the site of a former statue of Lenin that now stands in Memento Park.
+        It is made of granite, steel, and glass, and weighs 60 tons.</string>
+
+    <string name="anonymus_title">Anonymus Sculpture</string>
+    <string name="anonymus_description">Anonymus Bele regis notarius ("Anonymous Notary
+        of King Bela") or Master P. (fl. late 12th century – early 13th century) was the notary
+        and chronicler of a Hungarian King, probably Béla III. Little is known about him, but
+        his latinized name began with P, as he referred to himself as "P. dictus magister".</string>
+
+    <string name="millenaris_velodrom_title">Millenáris Velodrom</string>
+    <string name="millenaris_velodrom_description">Millenáris Sporttelep is a multi-use velodrome
+        in Budapest, Hungary. It is currently used mostly for cycling events but has also been used
+        for football matches. The venue has a capacity of 8,130 spectators and it opened in 1896.
+        The track is 412 m (451 yd) and made of concrete.</string>
+
+    <!-- Museum texts -->
+    <string name="agricultural_museum_title">Hungarian Agricultural Museum</string>
+    <string name="agricultural_museum_description">The biggest agricultural museum of Europe was
+        founded in the Vajdahunyad Castle of the City Park, Budapest. The building itself is
+        unique; too, for its architect Ignác Alpár merged various styles by using single parts
+        of significant buildings found in Hungary at the time.</string>
+    <string name="agricultural_museum_url">
+        http://www.museum.hu/museum/57/Museum_and_Library_of_Hungarian_Agriculture</string>
+
+    <string name="geological_institute_title">Geological Institute</string>
+    <string name="geological_institute_description">The Geological Museum of Budapest is the main
+        museum of geology in Hungary. It is located on the Stefánia út in the western part of Pest.</string>
+    <string name="geological_institute_url">http://www.mfgi.hu/en</string>
+
+    <string name="museum_of_fine_arts_title">Museum of Fine Arts</string>
+    <string name="museum_of_fine_arts_description">The Museum of Fine Arts is a museum in Heroes\'
+        Square, Budapest, Hungary, facing the Palace of Art. The museum\'s collection is made up
+        of international art (other than Hungarian), including all periods of European art, and
+        comprises more than 100,000 pieces.</string>
+    <string name="museum_of_fine_arts_url">http://www.szepmuveszeti.hu/main</string>
+
+    <string name="transportation_museum_title">Hungarian Technical and Transportation Museum</string>
+    <string name="transportation_museum_description">Hungarian Technical and Transportation Museum
+        is a museum in Budapest, Hungary. It is one of Europe’s oldest transportation collections.
+        The museum has a unique collection of locomotives and railway cars on a 1:5 scale.</string>
+    <string name="transportation_museum_url">http://www.mmkm.hu/index.php/en</string>
+
+    <string name="hall_of_arts_title">Hall of Arts</string>
+    <string name="hall_of_arts_description">The museum building is on Heroes\' Square, facing
+        the Budapest Museum of Fine Arts. The art museum hosts temporary exhibits contemporary art.
+        It operates on the program of German Kunsthalles, as an institution run by artists that
+        does not maintain its own collection.</string>
+    <string name="hall_of_arts_url">http://www.mucsarnok.hu/index1.php</string>
+
+    <!-- Freetime activity texts -->
+    <string name="ice_rink_title">Ice Rink in City Park</string>
+    <string name="ice_rink_description">The City Park Ice Rink is a public ice rink located in
+        the City Park of the Hungarian capital Budapest, between the Heroes\' Square and
+        the Vajdahunyad Castle. Opened in 1870, it is the largest and one of the oldest ice rinks
+        in Europe.</string>
+    <string name="ice_rink_url">https://www.mujegpalya.hu/en</string>
+
+    <string name="paskal_thermal_baths_title">Paskál Thermal Baths</string>
+    <string name="paskal_thermal_baths_description">Paskál Thermal Baths located in the 14th
+        district is the youngest baths in Budapest. The baths was expanded in 2016 with a covered
+        wellness centre. Nowadays it offers 9 pools and various wellness services. The specialities
+        of Paskál Thermal Baths are the outdoor aquabar and the unique geothermal sauna.</string>
+    <string name="paskal_thermal_baths_url">http://en.paskalfurdo.hu/</string>
+
+    <string name="circus_title">Capital Circus of Budapest</string>
+    <string name="circus_description">The Capital Circus of Budapest is a circus building located
+        in Budapest, Hungary. It originally opened in 1889, although it has changed locations
+        since then. Its current building opened in 1971 and is the only stone circus
+        in Central Europe.</string>
+    <string name="circus_url">http://www.fnc.hu/</string>
+
+    <string name="zoo_title">Budapest Zoo and Botanical Garden</string>
+    <string name="zoo_description">Budapest Zoo &amp; Botanical Garden is the oldest zoo park
+        in Hungary and one of the oldest in the world. It has 1,072 animal species and is located
+        within Városliget Park, unusually for a zoo, it is in the centre of the city.</string>
+    <string name="zoo_url">http://www.zoobudapest.com/en</string>
+
+    <string name="szechenyi_thermal_baths_title">Széchenyi thermal bath</string>
+    <string name="szechenyi_thermal_baths_description">The Széchenyi Medicinal Bath in Budapest is
+        the largest medicinal bath in Europe. Its water is supplied by two thermal springs, their
+        temperature is 74 °C (165 °F) and 77 °C (171 °F), respectively. Medical indications are
+        on degenerative joint illnesses, chronic and sub-acute joint inflammations, as well
+        as orthopaedic and traumatological post-treatments.</string>
+    <string name="szechenyi_thermal_baths_url">Széchenyi thermal bath</string>
+
+    <!-- Bar texts -->
+    <string name="kertem_title">Kertem</string>
+    <string name="kertem_description">The favorite spot of Balkan burger fanatics and local cyclists
+        is situated far from the buzz of downtown, in Városliget. Due to Liget Project, aka.
+        the renovation works at the City Park this locale now operates in the Olof Palme House and
+        in its garden.</string>
+    <string name="kertem_address">1146 Budapest, Olof Palme sétány 3</string>
+
+    <string name="pantlika_title">Pántlika Bistro</string>
+    <string name="pantlika_description">The run-down, deprived building was renovated insideout.
+        Inside you find a retro bar which reflects the athmosphere of the ’60s and ’70s. All
+        interior        objects and furniture aremaster pieces of the socialist industry.</string>
+    <string name="pantlika_address">1146 Budapest, Hermina st 47</string>
+
+    <string name="durer_kert_title">Dürer Kert</string>
+    <string name="durer_kert_description">The building of Dürer Kert has started its long and
+        curious transformation as a boarding school in the 19th century, ran by French nuns
+        of Sacre Coeur. The complex had served as a Soviet college after WWII until 1989 when it was
+        assigned to a prestigious Hungarian university</string>
+    <string name="durer_kert_address">1146 Budapest, Ajtósi Dürer sor 19–21.</string>
+
+    <string name="varosliget_cafe_title">Városliget Café &amp; Bar</string>
+    <string name="varosliget_cafe_description">Városliget Café &amp; Bar is a restaurant and café
+        in a historic building that was thoroughly renovated in 2013, surrounded by a fabulous
+        environment in front of a beautiful lake. As its name indicates, it is in one of the most
+        loveable parks of the city, Városliget (City Park), in an urban palace, giving the place
+        both a nostalgic and a modern atmosphere.</string>
+    <string name="varosliget_cafe_address">1146 Budapest, Olof Palme stny. 5</string>
+
+    <string name="pedal_bar_title">Pedal Bar</string>
+    <string name="pedal_bar_description">Pedal Bar is a unique way to drink fine beer while riding
+        a special beer bike. Check out our Pedal Bar with your friends, drink draft beer and have
+        fun when passing by the most famous sights of Budapest!</string>
+    <string name="pedal_bar_address">Budapest, Heroes\' square</string>
+</resources>
