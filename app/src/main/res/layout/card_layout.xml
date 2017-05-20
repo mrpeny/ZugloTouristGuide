@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/top_card_view"
+    style="@style/CardViewStyle"
+    android:focusable="true">
+
+    <LinearLayout style="@style/LinearLayoutStyle">
+
+        <!-- TODO: Figure out how to maintain 16:9 aspect ratio. PercentRelativeLayout?
+        How to apply aspect ratio from material design -->
+        <ImageView
+            style="@style/CardViewImageViewStyle"
+            android:src="@drawable/vajdahunyad_castle" />
+
+        <TextView
+            style="@style/CardViewTitleTextStyle"
+            android:text="@string/vajdahunyad_castle_title" />
+
+        <TextView
+            style="@style/CardViewTextStyle"
+            android:text="@string/vajdahunyad_castle_description" />
+
+        <Button
+            style="@style/GeneralCardViewButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Learn More" />
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

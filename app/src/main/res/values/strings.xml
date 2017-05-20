@@ -136,4 +136,7 @@
         a special beer bike. Check out our Pedal Bar with your friends, drink draft beer and have
         fun when passing by the most famous sights of Budapest!</string>
     <string name="pedal_bar_address">Budapest, Heroes\' square</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

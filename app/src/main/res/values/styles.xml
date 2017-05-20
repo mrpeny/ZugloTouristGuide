@@ -1,11 +1,67 @@
 <resources>
-
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Standard CardView Style -->
+    <style name="CardViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/cardview_margin_left_right</item>
+        <item name="android:layout_marginRight">@dimen/cardview_margin_left_right</item>
+        <item name="android:layout_marginTop">@dimen/cardview_margin_top_bottom</item>
+        <item name="cardCornerRadius">@dimen/cardview_border_radius</item>
+        <item name="cardBackgroundColor">@android:color/background_light</item>
+    </style>
+
+    <!-- CardView LinearLayout Style-->
+    <style name="LinearLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- CardView ImageView Style-->
+    <style name="CardViewImageViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <!-- CardView Text Style-->
+    <style name="CardViewTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingBottom">@dimen/cardview_text_padding_top_bottom</item>
+        <item name="android:paddingLeft">@dimen/cardview_text_padding_left_right</item>
+        <item name="android:paddingRight">@dimen/cardview_text_padding_left_right</item>
+    </style>
+
+    <!-- CardView TitleText Style-->
+    <style name="CardViewTitleTextStyle" parent="CardViewTextStyle">
+        <item name="android:paddingTop">@dimen/cardview_title_text_top_padding</item>
+        <item name="android:paddingBottom">@dimen/cardview_text_padding_top_bottom</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- CardView Button Style -->
+    <style name="GeneralCardViewButtonStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
     </style>
 
 </resources>
