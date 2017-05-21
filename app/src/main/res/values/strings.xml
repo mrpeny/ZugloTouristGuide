@@ -1,7 +1,13 @@
 <resources>
-    <string name="app_name">Zuglo Tourist Guide</string>
+    <string name="app_name">Zugló Tourist Guide</string>
+
+    <!-- General app related texts -->
+    <string name="show_location">Show Location</string>
+    <string name="learn_more">Learn More</string>
+    <string name="image_of_the_location">Image of the location</string>
 
     <!-- Sight texts -->
+    <string name="sights">Sights</string>
     <string name="heroes_square_title">Heroes\' Square</string>
     <string name="heroes_square_description">Heroes\' Square is one of the major squares
         in Budapest, Hungary, noted for its iconic statue complex featuring the Seven Chieftains
@@ -21,8 +27,8 @@
         It is made of granite, steel, and glass, and weighs 60 tons.</string>
 
     <string name="anonymus_title">Anonymus Sculpture</string>
-    <string name="anonymus_description">Anonymus Bele regis notarius ("Anonymous Notary
-        of King Bela") or Master P. (fl. late 12th century – early 13th century) was the notary
+    <string name="anonymus_description">Anonymus Bele regis notarius (\"Anonymous Notary
+        of King Bela\") or Master P. (fl. late 12th century – early 13th century) was the notary
         and chronicler of a Hungarian King, probably Béla III. Little is known about him, but
         his latinized name began with P, as he referred to himself as "P. dictus magister".</string>
 
@@ -33,6 +39,7 @@
         The track is 412 m (451 yd) and made of concrete.</string>
 
     <!-- Museum texts -->
+    <string name="museums">Museums</string>
     <string name="agricultural_museum_title">Hungarian Agricultural Museum</string>
     <string name="agricultural_museum_description">The biggest agricultural museum of Europe was
         founded in the Vajdahunyad Castle of the City Park, Budapest. The building itself is
@@ -67,6 +74,7 @@
     <string name="hall_of_arts_url">http://www.mucsarnok.hu/index1.php</string>
 
     <!-- Freetime activity texts -->
+    <string name="freetime">Freetime</string>
     <string name="ice_rink_title">Ice Rink in City Park</string>
     <string name="ice_rink_description">The City Park Ice Rink is a public ice rink located in
         the City Park of the Hungarian capital Budapest, between the Heroes\' Square and
@@ -100,9 +108,10 @@
         temperature is 74 °C (165 °F) and 77 °C (171 °F), respectively. Medical indications are
         on degenerative joint illnesses, chronic and sub-acute joint inflammations, as well
         as orthopaedic and traumatological post-treatments.</string>
-    <string name="szechenyi_thermal_baths_url">Széchenyi thermal bath</string>
+    <string name="szechenyi_thermal_baths_url">http://www.szechenyibath.hu/</string>
 
     <!-- Bar texts -->
+    <string name="bars">Bars</string>
     <string name="kertem_title">Kertem</string>
     <string name="kertem_description">The favorite spot of Balkan burger fanatics and local cyclists
         is situated far from the buzz of downtown, in Városliget. Due to Liget Project, aka.
@@ -136,7 +145,4 @@
         a special beer bike. Check out our Pedal Bar with your friends, drink draft beer and have
         fun when passing by the most famous sights of Budapest!</string>
     <string name="pedal_bar_address">Budapest, Heroes\' square</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

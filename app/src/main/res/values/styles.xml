@@ -14,6 +14,7 @@
         <item name="android:layout_marginLeft">@dimen/cardview_margin_left_right</item>
         <item name="android:layout_marginRight">@dimen/cardview_margin_left_right</item>
         <item name="android:layout_marginTop">@dimen/cardview_margin_top_bottom</item>
+        <item name="android:layout_marginBottom">@dimen/cardview_margin_top_bottom</item>
         <item name="cardCornerRadius">@dimen/cardview_border_radius</item>
         <item name="cardBackgroundColor">@android:color/background_light</item>
     </style>
@@ -64,4 +65,14 @@
         <item name="android:paddingBottom">8dp</item>
     </style>
 
+    <style name="CustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabTextAppearance">@style/CustomTabTextAppearance</item>
+        <item name="tabSelectedTextColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="CustomTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="textAllCaps">true</item>
+    </style>
 </resources>

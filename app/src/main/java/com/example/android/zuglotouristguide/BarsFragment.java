@@ -12,9 +12,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class SightsFragment extends Fragment {
+public class BarsFragment extends Fragment {
 
-    public SightsFragment() {
+    public BarsFragment() {
         // Required empty public constructor
     }
 
@@ -30,28 +30,28 @@ public class SightsFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.location_list, container, false);
-        List<Location> sightList = new ArrayList<>();
+        List<Location> barList = new ArrayList<>();
 
-        sightList.add(new Location(
-                getString(R.string.heroes_square_title),
-                getString(R.string.heroes_square_description),
-                R.drawable.heroes_quare));
-        sightList.add(new Location(
-                getString(R.string.vajdahunyad_castle_title),
-                getString(R.string.vajdahunyad_castle_description),
-                R.drawable.vajdahunyad_castle));
-        sightList.add(new Location(
-                getString(R.string.timewheel_title),
-                getString(R.string.timewheel_description),
-                R.drawable.timewheel));
-        sightList.add(new Location(
-                getString(R.string.anonymus_title),
-                getString(R.string.anonymus_description),
-                R.drawable.anonymus_sculpture));
-        sightList.add(new Location(
-                getString(R.string.millenaris_velodrom_title),
-                getString(R.string.millenaris_velodrom_description),
-                R.drawable.millenaris));
+        barList.add(new Location(
+                getString(R.string.kertem_title),
+                getString(R.string.kertem_description),
+                getString(R.string.kertem_address)));
+        barList.add(new Location(
+                getString(R.string.pantlika_title),
+                getString(R.string.pantlika_description),
+                getString(R.string.pantlika_address)));
+        barList.add(new Location(
+                getString(R.string.durer_kert_title),
+                getString(R.string.durer_kert_description),
+                getString(R.string.durer_kert_address)));
+        barList.add(new Location(
+                getString(R.string.varosliget_cafe_title),
+                getString(R.string.varosliget_cafe_description),
+                getString(R.string.varosliget_cafe_address)));
+        barList.add(new Location(
+                getString(R.string.pedal_bar_title),
+                getString(R.string.pedal_bar_description),
+                getString(R.string.pedal_bar_address)));
 
         RecyclerView recyclerList = (RecyclerView) rootView.findViewById(R.id.card_list);
         recyclerList.setHasFixedSize(true);
@@ -59,7 +59,7 @@ public class SightsFragment extends Fragment {
         linearLayoutManager.setOrientation(LinearLayoutManager.VERTICAL);
         recyclerList.setLayoutManager(linearLayoutManager);
 
-        LocationAdapter locationAdapter = new LocationAdapter(sightList);
+        LocationAdapter locationAdapter = new LocationAdapter(barList);
         recyclerList.setAdapter(locationAdapter);
 
         return rootView;

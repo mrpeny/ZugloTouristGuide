@@ -1,18 +1,12 @@
 package com.example.android.zuglotouristguide;
 
-/**
- * Created by Peny on 2017.05.19..
- */
-
 public class Location {
+    private static final int NO_IMAGE_SET = -1;
+    private int imageResourceId = -1;
     private String title;
     private String description;
-    private String address = "";
-    private String url = "";
-
-    private int imageResourceId = -1;
-
-    private static final int NO_IMAGE_SET = -1;
+    private String address;
+    private String url;
 
     public Location(String title, String description, int imageResourceId) {
         this.title = title;
@@ -33,12 +27,32 @@ public class Location {
         this.address = address;
     }
 
+    public int getImageResourceId() {
+        return imageResourceId;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
     public boolean hasAddress() {
-        return this.address != "";
+        return this.address != null;
     }
 
     public boolean hasUrl() {
-        return this.url != "";
+        return this.url != null;
     }
 
     public boolean hasImage() {

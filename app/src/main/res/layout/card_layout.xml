@@ -7,25 +7,28 @@
 
     <LinearLayout style="@style/LinearLayoutStyle">
 
-        <!-- TODO: Figure out how to maintain 16:9 aspect ratio. PercentRelativeLayout?
-        How to apply aspect ratio from material design -->
         <ImageView
+            android:id="@+id/cardview_image"
             style="@style/CardViewImageViewStyle"
-            android:src="@drawable/vajdahunyad_castle" />
+            android:contentDescription="@string/image_of_the_location"
+            tools:src="@drawable/vajdahunyad_castle" />
 
         <TextView
+            android:id="@+id/cardview_title"
             style="@style/CardViewTitleTextStyle"
-            android:text="@string/vajdahunyad_castle_title" />
+            tools:text="@string/vajdahunyad_castle_title" />
 
         <TextView
+            android:id="@+id/cardview_description"
             style="@style/CardViewTextStyle"
-            android:text="@string/vajdahunyad_castle_description" />
+            tools:text="@string/vajdahunyad_castle_description" />
 
         <Button
+            android:id="@+id/cardview_button"
             style="@style/GeneralCardViewButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Learn More" />
+            tools:text="Learn More" />
 
     </LinearLayout>
 </android.support.v7.widget.CardView>
