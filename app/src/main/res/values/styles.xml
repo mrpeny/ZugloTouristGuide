@@ -54,25 +54,18 @@
     </style>
 
     <!-- CardView Button Style -->
-    <style name="GeneralCardViewButtonStyle">
+    <style name="GeneralCardViewButtonStyle" parent="Widget.AppCompat.Button.Borderless.Colored">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">wrap_content</item>
-        <item name="android:textColor">@color/colorAccent</item>
-        <item name="android:background">#00000000</item>
-        <item name="android:paddingLeft">16dp</item>
-        <item name="android:paddingRight">16dp</item>
-        <item name="android:paddingTop">8dp</item>
-        <item name="android:paddingBottom">8dp</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
     </style>
 
     <style name="CustomTabLayout" parent="Widget.Design.TabLayout">
         <item name="tabTextAppearance">@style/CustomTabTextAppearance</item>
-        <item name="tabSelectedTextColor">?android:textColorPrimary</item>
     </style>
 
     <style name="CustomTabTextAppearance" parent="TextAppearance.Design.Tab">
         <item name="android:textSize">12sp</item>
-        <item name="android:textColor">?android:textColorSecondary</item>
-        <item name="textAllCaps">true</item>
     </style>
 </resources>
