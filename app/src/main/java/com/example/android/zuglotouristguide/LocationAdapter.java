@@ -12,11 +12,11 @@ import android.widget.TextView;
 
 import java.util.List;
 
-public class LocationAdapter extends RecyclerView.Adapter<LocationAdapter.LocationViewHolder> {
+class LocationAdapter extends RecyclerView.Adapter<LocationAdapter.LocationViewHolder> {
     private static final String geoBegin = "geo:0,0?q=";
     private List<Location> locationList;
 
-    public LocationAdapter(List<Location> locationList) {
+    LocationAdapter(List<Location> locationList) {
         this.locationList = locationList;
     }
 
@@ -35,6 +35,10 @@ public class LocationAdapter extends RecyclerView.Adapter<LocationAdapter.Locati
         viewHolder.titleTextView.setText(location.getTitle());
         viewHolder.descriptionTextView.setText(location.getDescription());
 
+        /*
+        * If Location has no image then it is a bar that has address which can be viewed
+        * by sending an explicit intent to a component registered showing addresses
+        */
         if (!location.hasImage()) {
             viewHolder.imageView.setVisibility(View.GONE);
             viewHolder.button.setText(R.string.show_location);
@@ -55,7 +59,14 @@ public class LocationAdapter extends RecyclerView.Adapter<LocationAdapter.Locati
             viewHolder.imageView.setImageResource(location.getImageResourceId());
         }
 
+        /*
+        * If Location has no address then it is either a sight or a museum or freetime activity
+        */
         if (!location.hasAddress()) {
+            /*
+            * If Location has no URL either then it is a sight otherwise it is a museum or
+            * freetime activity
+            */
             if (!location.hasUrl()) {
                 viewHolder.button.setVisibility(View.GONE);
             } else {
@@ -79,13 +90,13 @@ public class LocationAdapter extends RecyclerView.Adapter<LocationAdapter.Locati
         return locationList.size();
     }
 
-    public static class LocationViewHolder extends RecyclerView.ViewHolder {
-        protected ImageView imageView;
-        protected TextView titleTextView;
-        protected TextView descriptionTextView;
-        protected Button button;
+    static class LocationViewHolder extends RecyclerView.ViewHolder {
+        ImageView imageView;
+        TextView titleTextView;
+        TextView descriptionTextView;
+        Button button;
 
-        public LocationViewHolder(View itemView) {
+        LocationViewHolder(View itemView) {
             super(itemView);
             this.imageView = (ImageView) itemView.findViewById(R.id.cardview_image);
             this.titleTextView = (TextView) itemView.findViewById(R.id.cardview_title);

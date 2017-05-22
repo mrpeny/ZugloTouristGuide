@@ -1,22 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- General layout dimens -->
-    <dimen name="screen_padding">16dp</dimen>
-
     <!-- CardView layout margins and padding and corner radius-->
     <dimen name="cardview_margin_left_right">16dp</dimen>
     <dimen name="cardview_margin_top_bottom">4dp</dimen>
-    <dimen name="cardview_title_text_margin_bottom">8dp</dimen>
     <dimen name="cardview_border_radius">2dp</dimen>
     <dimen name="cardview_title_text_top_padding">24dp</dimen>
     <dimen name="cardview_text_padding_top_bottom">16dp</dimen>
     <dimen name="cardview_text_padding_left_right">16dp</dimen>
-
-    <!-- CardView LinearLayout paddings -->
-    <dimen name="linearlayout_padding_right_left">16dp</dimen>
-    <dimen name="linearlayout_padding_top_bottom">16dp</dimen>
-
-    <!-- CardView Button margin -->
-    <dimen name="button_margin_top_bottom">16dp</dimen>
-    <dimen name="button_divider_margin">8dp</dimen>
 </resources>

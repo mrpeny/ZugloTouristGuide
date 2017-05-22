@@ -61,11 +61,15 @@
         <item name="android:layout_marginBottom">8dp</item>
     </style>
 
+    <!-- ViewPager Tablayout style and setting TabText style -->
     <style name="CustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="tabTextAppearance">@style/CustomTabTextAppearance</item>
     </style>
 
+    <!-- TabLayout TabTextAppearance style -->
     <style name="CustomTabTextAppearance" parent="TextAppearance.Design.Tab">
-        <item name="android:textSize">12sp</item>
+        <item name="android:textSize">14sp</item>
     </style>
 </resources>

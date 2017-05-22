@@ -4,16 +4,13 @@ import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.widget.TextView;
 
-public class LocationFragmentAdapter extends FragmentPagerAdapter {
+class LocationFragmentAdapter extends FragmentPagerAdapter {
     private static final int NUM_PAGES = 4;
-    private String[] pageTitles = new String[4];
+    private String[] pageTitles = new String[NUM_PAGES];
     private Context context;
 
-    public LocationFragmentAdapter(FragmentManager fm, Context context) {
+    LocationFragmentAdapter(FragmentManager fm, Context context) {
         super(fm);
         this.context = context;
         pageTitles[0] = context.getString(R.string.sights);
@@ -46,12 +43,5 @@ public class LocationFragmentAdapter extends FragmentPagerAdapter {
     @Override
     public CharSequence getPageTitle(int position) {
         return pageTitles[position];
-    }
-
-    public View getTabView(int position) {
-        View tab = LayoutInflater.from(context).inflate(R.layout.custom_tab, null);
-        TextView tv = (TextView) tab.findViewById(R.id.tab_title);
-        tv.setText(pageTitles[position]);
-        return tab;
     }
 }
